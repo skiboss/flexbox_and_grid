@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 html, body {
   height: 100%;
   width: 100%;
@@ -10,9 +12,10 @@ html, body {
 }
 
 body {
-  background-color: #c1e5ec;
+  background-color: hsl(0, 0%, 95%);
   display: flex;
-  font-family: helvetica;
+  font-family: 'Lexend Deca', sans-serif;
+  font: 15px;
 }
 
 main {
@@ -29,9 +32,13 @@ main .container {
   align-items: center;
 }
 
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
 
 .container .flex1 {
-  background-color: orange;
+  background-color: hsl(31, 77%, 52%);
   padding: 2em;
   width: 100%;
   height: 100%;
@@ -43,7 +50,7 @@ img, p{
 }
 
 .container .flex2 {
-  background-color: #037777;
+  background-color: hsl(184, 100%, 22%);
   padding: 2em;
   width: 100%;
   height: 100%;
@@ -51,7 +58,7 @@ img, p{
 }
 
 .container .flex3 {
-  background-color: #013c3c;
+  background-color: hsl(179, 100%, 13%);
   padding: 2em;
   width: 100%;
   height: 100%;
@@ -71,11 +78,30 @@ img, p{
   
 }
 .btn:hover{
+  background: none;
+  color: hsl(0, 0%, 95%) !important;
+}
+
+.btn:active {
   background:none;
+  color: hsl(0, 0%, 95%);
+}
+
+.flex1 .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.flex2 .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.flex3 .btn {
+  color: hsl(179, 100%, 13%);
 }
 
  h3 {
-  color: #fff;
+  color: hsl(0, 0%, 95%);
   font-size: 20px;
+  font-family: 'Big Shoulders Display', cursive;
   padding-bottom: 10px;
 }
