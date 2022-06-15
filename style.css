@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  max-width: 60%;
+  width: 60%;
   display: flex;
   margin:  auto;
   justify-content: center;
@@ -104,4 +104,30 @@ img, p{
   font-size: 20px;
   font-family: 'Big Shoulders Display', cursive;
   padding-bottom: 10px;
+}
+
+@media screen and (max-width:375px){
+  body {
+    margin: 4em auto;
+  }
+
+  main {
+    width: 80%;
+  }
+
+
+  .container{
+    flex-direction: column;
+  }
+
+  .container div {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+
+/*   .second-box{
+    width: 100%;
+  } */
+  
 }
